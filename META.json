@@ -1,5 +1,5 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "It's module to get access to Yandex.Metrika API via OAuth",
    "author" : [
       "Andrey Kuzmin <chipsoid@cpan.org>"
    ],
@@ -42,6 +42,10 @@
       },
       "runtime" : {
          "requires" : {
+            "Class::MOP" : "0",
+            "Modern::Perl" : "0",
+            "Moo" : "0",
+            "Yandex::OAuth::Client" : "0.04",
             "perl" : "5.008001"
          }
       },
@@ -52,5 +56,16 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/Chipsoid/yandex-metrika-perl/issues"
+      },
+      "homepage" : "https://github.com/Chipsoid/yandex-metrika-perl",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/Chipsoid/yandex-metrika-perl.git",
+         "web" : "https://github.com/Chipsoid/yandex-metrika-perl"
+      }
+   },
    "version" : "0.01"
 }

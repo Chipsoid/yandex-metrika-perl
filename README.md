@@ -1,10 +1,8 @@
-=encoding utf-8
-
-=head1 NAME
+# NAME
 
 Yandex::Metrika - It's module to get access to Yandex.Metrika API via OAuth
 
-=head1 SYNOPSIS
+# SYNOPSIS
 
     use Yandex::Metrika;
 
@@ -23,8 +21,7 @@ Yandex::Metrika - It's module to get access to Yandex.Metrika API via OAuth
 
     say $metrika->next_url;
 
-
-=head1 DESCRIPTION
+# DESCRIPTION
 
 Yandex::Metrika is using Yandex::OAuth::Client as base class to get access.
 API methods are mapped to object methods.
@@ -32,116 +29,63 @@ See api docs for parameters and response formats at https://tech.yandex.ru/metri
 
 Looking for contributors for this and other Yandex.APIs
 
+# METHODS
 
-=head1 METHODS
+- **traffic()**
+- **conversion()**
+- **sites()**
+- **search\_engines()**
+- **phrases()**
+- **social\_networks()**
+- **marketing()**
+- **direct\_summary()**
+- **direct\_platforms\_all()**
+- **direct\_platform\_types()**
+- **direct\_regions()**
+- **tags()**
+- **geo()**
+- **interest()**
+- **demography\_age()**
+- **demography\_gender()**
+- **demography\_structure()**
+- **deepness\_time()**
+- **deepness\_depth()**
+- **hourly()**
+- **popular()**
+- **entrance()**
+- **exit()**
+- **titles()**
+- **url\_param()**
+- **share\_services()**
+- **share\_titles()**
+- **links()**
+- **downloads()**
+- **user\_vars()**
+- **ecommerce()**
+- **browsers()**
+- **os()**
+- **display\_all()**
+- **display\_groups()**
+- **mobile\_devices()**
+- **mobile\_phones()**
+- **flash()**
+- **silverlight()**
+- **java()**
+- **cookies()**
+- **javascript()**
+- **load()**
+- **load\_minutely\_24()**
+- **load\_minutely\_all()**
+- **robots\_all()**
+- **robot\_types()**
 
-=over
-
-=item B<traffic()>
-
-=item B<conversion()>
-
-=item B<sites()>
-
-=item B<search_engines()>
-
-=item B<phrases()>
-
-=item B<social_networks()>
-
-=item B<marketing()>
-
-=item B<direct_summary()>
-
-=item B<direct_platforms_all()>
-
-=item B<direct_platform_types()>
-
-=item B<direct_regions()>
-
-=item B<tags()>
-
-=item B<geo()>
-
-=item B<interest()>
-
-=item B<demography_age()>
-
-=item B<demography_gender()>
-
-=item B<demography_structure()>
-
-=item B<deepness_time()>
-
-=item B<deepness_depth()>
-
-=item B<hourly()>
-
-=item B<popular()>
-
-=item B<entrance()>
-
-=item B<exit()>
-
-=item B<titles()>
-
-=item B<url_param()>
-
-=item B<share_services()>
-
-=item B<share_titles()>
-
-=item B<links()>
-
-=item B<downloads()>
-
-=item B<user_vars()>
-
-=item B<ecommerce()>
-
-=item B<browsers()>
-
-=item B<os()>
-
-=item B<display_all()>
-
-=item B<display_groups()>
-
-=item B<mobile_devices()>
-
-=item B<mobile_phones()>
-
-=item B<flash()>
-
-=item B<silverlight()>
-
-=item B<java()>
-
-=item B<cookies()>
-
-=item B<javascript()>
-
-=item B<load()>
-
-=item B<load_minutely_24()>
-
-=item B<load_minutely_all()>
-
-=item B<robots_all()>
-
-=item B<robot_types()>
-
-=back
-
-=head1 LICENSE
+# LICENSE
 
 Copyright (C) Andrey Kuzmin.
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
 
-=head1 AUTHOR
+# AUTHOR
 
-Andrey Kuzmin E<lt>chipsoid@cpan.orgE<gt>
-
-=cut
+Andrey Kuzmin <chipsoid@cpan.org>
